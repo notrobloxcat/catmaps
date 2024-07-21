@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CatMaps</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="loading-screen">
+        <h1 class="title">CatMaps</h1>
+        <p class="subtitle">Intelligent Mapping System</p>
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div class="search-container">
+        <div class="map-title">
+            <h1 class="title">CatMaps</h1>
+            <p class="subtitle">Intelligent Mapping System</p>
+        </div>
+        <input id="searchInput" type="text" placeholder="Enter address or place">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
